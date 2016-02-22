@@ -1,0 +1,11 @@
+@import "../animations/buttons";
+
+.btn-primary.btn-outline {
+  background: transparent;
+  color: $primary-color;
+  border: 2px solid $primary-color;
+}
+.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+  background: $primary-color;
+  color: $white;
+}
